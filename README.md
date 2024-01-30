@@ -7,9 +7,9 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
 
 #### Reference
 * ToTTo: A Controlled Table-To-Text Generation Dataset ([ToTTo Paper](https://arxiv.org/abs/2004.14373) / [ToTTo GitHub Repository](https://github.com/google-research-datasets/ToTTo))
-* ToTTo Evaluation supplementary repository [GitHub Repository](https://github.com/google-research/language/tree/master/language/totto)
-* BLEURT: a Transfer Learning-Based Metric for Natural Language Generation [GitHub Repository](https://github.com/google-research/bleurt?tab=readme-ov-file#bleurt-a-transfer-learning-based-metric-for-natural-language-generation)
-* BLUERT Cheackpints [GitHub Repository](https://github.com/google-research/bleurt/blob/master/checkpoints.md)
+* ToTTo Evaluation supplementary repository ([GitHub Repository](https://github.com/google-research/language/tree/master/language/totto))
+* BLEURT: a Transfer Learning-Based Metric for Natural Language Generation ([GitHub Repository](https://github.com/google-research/bleurt?tab=readme-ov-file#bleurt-a-transfer-learning-based-metric-for-natural-language-generation))
+* BLUERT Cheackpoints ([GitHub Repository](https://github.com/google-research/bleurt/blob/master/checkpoints.md))
   
 
 ### Models
