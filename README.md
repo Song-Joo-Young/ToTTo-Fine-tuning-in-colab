@@ -27,19 +27,20 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
 * BLEU
 * PARENT
 * BLEURT
-```bash
-!git clone https://github.com/Song-Joo-Young/language.git language_repo
-!pip install git+https://github.com/google-research/bleurt.git
-%cd language_repo
-# Downloads the BLEURT-base checkpoint.
-!wget https://storage.googleapis.com/bleurt-oss-21/BLEURT-20.zip .
-!unzip BLEURT-20.zip
-!pip3 install -r language/totto/eval_requirements.txt
-```
+  * Requirements  
+    ```bash
+    !git clone https://github.com/Song-Joo-Young/language.git language_repo
+    !pip install git+https://github.com/google-research/bleurt.git
+    %cd language_repo
+    # Downloads the BLEURT-base checkpoint.
+    !wget https://storage.googleapis.com/bleurt-oss-21/BLEURT-20.zip .
+    !unzip BLEURT-20.zip
+    !pip3 install -r language/totto/eval_requirements.txt
+    ```
 
-To evaluate
-```bash
-!bash language/totto/totto_eval.sh --prediction_path /content/drive/MyDrive/ToTTo_T5-base/generation_dev_epoch.txt --target_path /content/drive/MyDrive/ToTTo_T5-base/totto_dev_data.jsonl
-```
+    * To evaluate
+    ```bash
+    !bash language/totto/totto_eval.sh --prediction_path /content/drive/MyDrive/ToTTo_T5-base/generation_dev_epoch.txt --target_path /content/drive/MyDrive/ToTTo_T5-base/totto_dev_data.jsonl
+    ```
 
 ### Results
