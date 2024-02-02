@@ -10,7 +10,12 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
 * ToTTo Evaluation supplementary repository ([GitHub Repository](https://github.com/google-research/language/tree/master/language/totto))
 * BLEURT: a Transfer Learning-Based Metric for Natural Language Generation ([GitHub Repository](https://github.com/google-research/bleurt?tab=readme-ov-file#bleurt-a-transfer-learning-based-metric-for-natural-language-generation))
 * BLUERT Cheackpoints ([GitHub Repository](https://github.com/google-research/bleurt/blob/master/checkpoints.md))
-  
+
+### Dataset
+```bash
+!wget https://storage.googleapis.com/totto-public/totto_data.zip
+!unzip totto_data.zip
+```
 
 ### Models
 * t5-base [Full fine-tuning]
