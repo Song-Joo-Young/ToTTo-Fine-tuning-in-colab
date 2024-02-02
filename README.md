@@ -38,9 +38,9 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
     !pip3 install -r language/totto/eval_requirements.txt
     ```
 
-    * To evaluate
-    ```bash
-    !bash language/totto/totto_eval.sh --prediction_path /content/drive/MyDrive/ToTTo_T5-base/generation_dev_epoch.txt --target_path /content/drive/MyDrive/ToTTo_T5-base/totto_dev_data.jsonl
-    ```
+   * To evaluate
+     ```bash
+     !bash language/totto/totto_eval.sh --prediction_path /content/drive/MyDrive/ToTTo_T5-base/generation_dev_epoch.txt --target_path /content/drive/MyDrive/ToTTo_T5-base/totto_dev_data.jsonl
+     ```
 
 ### Results
