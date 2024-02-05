@@ -5,12 +5,6 @@ This repository serves as the hub for the ToTTo dataset, offering a collection o
 
 In addition, for beginners to learn easily, all tasks come with Colab notebooks for seamless execution.
 
-#### Reference
-* ToTTo: A Controlled Table-To-Text Generation Dataset ([ToTTo Paper](https://arxiv.org/abs/2004.14373) / [ToTTo GitHub Repository](https://github.com/google-research-datasets/ToTTo))
-* ToTTo Evaluation supplementary repository ([GitHub Repository](https://github.com/google-research/language/tree/master/language/totto))
-* BLEURT: a Transfer Learning-Based Metric for Natural Language Generation ([GitHub Repository](https://github.com/google-research/bleurt?tab=readme-ov-file#bleurt-a-transfer-learning-based-metric-for-natural-language-generation))
-* BLUERT Cheackpoints ([GitHub Repository](https://github.com/google-research/bleurt/blob/master/checkpoints.md))
-
 ### Dataset
 ```bash
 !wget https://storage.googleapis.com/totto-public/totto_data.zip
@@ -44,3 +38,11 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
      ```
 
 ### Results
+
+#### Reference
+* T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer ([T5 Paper](https://arxiv.org/abs/1910.10683))
+* LATTICE: Robust (Controlled) Table-to-Text Generation with Structure-Aware Equivariance Learning ([LATTICE Paper](https://arxiv.org/abs/2205.03972))
+* ToTTo: A Controlled Table-To-Text Generation Dataset ([ToTTo Paper](https://arxiv.org/abs/2004.14373) / [ToTTo GitHub Repository](https://github.com/google-research-datasets/ToTTo))
+* ToTTo Evaluation supplementary repository ([GitHub Repository](https://github.com/google-research/language/tree/master/language/totto))
+* BLEURT: a Transfer Learning-Based Metric for Natural Language Generation ([GitHub Repository](https://github.com/google-research/bleurt?tab=readme-ov-file#bleurt-a-transfer-learning-based-metric-for-natural-language-generation))
+* BLUERT Cheackpoints ([GitHub Repository](https://github.com/google-research/bleurt/blob/master/checkpoints.md))
