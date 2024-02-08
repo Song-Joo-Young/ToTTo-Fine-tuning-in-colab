@@ -12,8 +12,11 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
 ```
 
 ### Models
+* t5-small [Full fine-tuning]
+* t5-small [LoRA fine-tuning]
 * t5-base [Full fine-tuning]
-* t5-large [LoRA fine-tuning]
+* t5-base [LoRA fine-tuning]
+* LATTICE(t5-small)
 * LATTICE(t5-base)
 
 
