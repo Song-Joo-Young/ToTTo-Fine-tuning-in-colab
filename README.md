@@ -12,7 +12,7 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
 ```
 
 ### Models
-| Model                       | Train Colab Link | Evaluation Colab Link |
+| Model                       | Train Colab Link | Evaluation Link |
 |-----------------------------|------------------|-----------------------|
 | t5-small [Full fine-tuning] | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_Full-fine-tuning/train/ToTTo_T5_small_Fine_tuning_10epoch.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_Full-fine-tuning/evaluation/ToTTo_T5_small_Evaluation.ipynb) |
 | t5-small [LoRA fine-tuning] | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_LoRA-fine-tuning/train/ToTTo_T5_small_LoRA_Fine_tuning_10epoch.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_LoRA-fine-tuning/evaluation/ToTTo_T5_small(LoRA)_10epoch_Evaluation.ipynb) |
