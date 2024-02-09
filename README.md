@@ -12,7 +12,7 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
 ```
 
 ### Models
-* t5-small [Full fine-tuning] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_Full-fine-tuning/train/ToTTo_T5_small_Fine_tuning_10epoch.ipynb)
+* t5-small [Full fine-tuning] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_Full-fine-tuning/train/ToTTo_T5_small_Fine_tuning_10epoch.ipynb)
 * t5-small [LoRA fine-tuning] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 * t5-base [Full fine-tuning] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 * t5-base [LoRA fine-tuning] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
