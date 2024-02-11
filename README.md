@@ -18,53 +18,9 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
 | t5-small [LoRA fine-tuning] | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_LoRA-fine-tuning/train/ToTTo_T5_small_LoRA_Fine_tuning_10epoch.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_LoRA-fine-tuning/evaluation/ToTTo_T5_small(LoRA)_10epoch_Evaluation.ipynb) |
 | t5-base [Full fine-tuning]  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-base_Full-fine-tuning/train/ToTTo_T5_base_Fine_tuning_5epoch.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-base_Full-fine-tuning/evaluation/ToTTo_t5-base_Evaluation.ipynb) |
 | t5-base [LoRA fine-tuning]  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() |
-| LATTICE(t5-small)           | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()                             |
-| LATTICE(t5-base)            | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()                             |
+| LATTICE(t5-small)           | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | - |
+| LATTICE(t5-base)            | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | - |
 
-<h3>Models</h3>
-<table>
-  <thead>
-    <tr>
-      <th>Model</th>
-      <th colspan="2">Links</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="2">t5-small [Full fine-tuning]</td>
-      <td><a href="https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_Full-fine-tuning/train/ToTTo_T5_small_Fine_tuning_10epoch.ipynb" style="display: block; text-align: center;"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-      <td><a href="https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_Full-fine-tuning/evaluation/ToTTo_T5_small_Evaluation.ipynb" style="display: block; text-align: center;"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td rowspan="2">t5-small [LoRA fine-tuning]</td>
-      <td><a href="https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_LoRA-fine-tuning/train/ToTTo_T5_small_LoRA_Fine_tuning_10epoch.ipynb" style="display: block; text-align: center;"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-      <td><a href="https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-small_LoRA-fine-tuning/evaluation/ToTTo_T5_small(LoRA)_10epoch_Evaluation.ipynb" style="display: block; text-align: center;"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td rowspan="2">t5-base [Full fine-tuning]</td>
-      <td><a href="https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-base_Full-fine-tuning/train/ToTTo_T5_base_Fine_tuning_5epoch.ipynb" style="display: block; text-align: center;"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-      <td><a href="https://colab.research.google.com/github/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/t5-base_Full-fine-tuning/evaluation/ToTTo_t5-base_Evaluation.ipynb" style="display: block; text-align: center;"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td rowspan="2">t5-base [LoRA fine-tuning]</td>
-      <td colspan="2" style="text-align: center;">N/A</td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td rowspan="2">LATTICE(t5-small)</td>
-      <td colspan="2" style="text-align: center;"><a href="#" style="display: block;"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td rowspan="2">LATTICE(t5-base)</td>
-      <td colspan="2" style="text-align: center;"><a href="#" style="display: block;"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-    </tr>
-    <tr></tr>
-  </tbody>
-</table>
 
 
 
