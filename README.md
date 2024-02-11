@@ -53,17 +53,22 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
       <td><a href="#"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
     </tr>
     <tr>
-      <td>LATTICE(t5-small)</td>
-      <td><a href="#"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-      <td></td>
+      <td rowspan="2">LATTICE(t5-small)</td>
+      <td colspan="2"><a href="#"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
     </tr>
     <tr>
-      <td>LATTICE(t5-base)</td>
-      <td><a href="#"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-      <td></td>
+      <td colspan="2"></td>
+    </tr>
+    <tr>
+      <td rowspan="2">LATTICE(t5-base)</td>
+      <td colspan="2"><a href="#"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+    </tr>
+    <tr>
+      <td colspan="2"></td>
     </tr>
   </tbody>
 </table>
+
 
 
 ### Metrics
