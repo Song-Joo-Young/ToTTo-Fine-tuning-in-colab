@@ -72,7 +72,8 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
 ![T5-small full fine-tuning overall result](https://github.com/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/figures/t5-small_full.png)
 ![T5-base full fine-tuning overall result](https://github.com/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/figures/t5-base_full.png)
 
-
+* Report
+![Report](https://github.com/Song-Joo-Young/ToTTo-Fine-tuning-in-colab/blob/main/figures/Report.png)
 
 #### Reference
 * T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer ([T5 Paper](https://arxiv.org/abs/1910.10683))
