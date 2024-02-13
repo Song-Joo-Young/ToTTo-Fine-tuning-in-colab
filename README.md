@@ -45,6 +45,34 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
      ```
 
 ### Results
+| Model               | BLEU | PARENT | BLEURT | BLEU (Overlap) | PARENT (Overlap) | BLEURT (Overlap) | BLEU (Non-Overlap) | PARENT (Non-Overlap) | BLEURT (Non-Overlap) |
+|---------------------|------|--------|--------|----------------|------------------|------------------|--------------------|----------------------|----------------------|
+| T5-small            | 44.9 | 55.96  | 0.6514 | 52.0           | 59.91            | 0.6908           | 38.0               | 52.15                | 0.6134               |
+| T5-small (LoRA)     | 42.2 | 53.96  | 0.6340 | 48.9           | 57.50            | 0.6721           | 35.7               | 50.55                | 0.5973               |
+| LATTICE (T5-small)  | 47.4 | 57.8   | -      | 55.6           | 62.3             | -                | 39.1               | 53.3                 | -                    |
+| T5-base             | 47.3 | 57.73  | 0.6677 | 54.9           | 61.52            | 0.7050           | 40.0               | 54.06                | 0.6318               |
+| T5-base (LoRA)      | 44.7 | 56.08  | 0.6530 | 51.6           | 59.82            | 0.6893           | 38.0               | 52.47                | 0.6180               |
+| LATTICE (T5-base)   | 48.4 | 58.1   | -      | 56.1           | 62.4             | -                | 40.4               | 53.9                 | -                    |
+
+* LATTICE result : [ToTTo Official Leaderboard](https://github.com/google-research-datasets/ToTTo?tab=readme-ov-file) refer to Results
+
+| Model | Parameter         | t5-small       |               |          | t5-base        |               |          |
+|-------|-------------------|----------------|---------------|----------|----------------|---------------|----------|
+|       |                   | Full fine-tuning | LoRA      | LATTICE  | Full fine-tuning | LoRA      | LATTICE  |
+|-------|-------------------|----------------|---------------|----------|----------------|---------------|----------|
+| Epoch |                   | 10             | 10            | -        | 5              | 3             | -        |
+| Learning rate |          | 0.0001         | 0.001         | -        | 0.0001         | 0.001         | -        |
+| Batch size |             | 16             | auto find     | -        | 8              | auto find     | -        |
+| Learning Time |          |                | 9:40:07       | 12:44:05 | 18:19:41       | 10:09:47      | -        |
+
+*Training parameter: LoRA Tuning Seq2SeqTrainingArguments - `auto_find_batch_size = True`. LATTICE provides code only due to a lack of GPU tokens. [ToTTo Official Leaderboard](https://github.com/google-research-datasets/ToTTo?tab=readme-ov-file) refer to Results*
+
+
+
+### Appendix
+Full Fine-tuning Visualization
+
+
 
 #### Reference
 * T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer ([T5 Paper](https://arxiv.org/abs/1910.10683))
