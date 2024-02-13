@@ -61,7 +61,7 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
 | **Epoch**          | 10                        | 10            | -                | 5                        | 3            | -               |
 | **Learning rate**  | 0.0001                    | 0.001         | -                | 0.0001                   | 0.001        | -               |
 | **Batch size**     | 16                        | auto find     | -                | 8                        | auto find    | -               |
-| **Learning Time**  | 12:44:05                  | 9:40:07       | -                |                          | 10:09:47     | -               |
+| **Learning Time**  | 12:44:05                  | 9:40:07       | -                | 18:19:41                 | 10:09:47     | -               |
 
 * Training parameter: LoRA Tuning Seq2SeqTrainingArguments - `auto_find_batch_size = True`. LATTICE provides code only due to a lack of GPU tokens. [ToTTo Official Leaderboard](https://github.com/google-research-datasets/ToTTo?tab=readme-ov-file) refer to Results
 
