@@ -56,16 +56,17 @@ In addition, for beginners to learn easily, all tasks come with Colab notebooks 
 
 * LATTICE result : [ToTTo Official Leaderboard](https://github.com/google-research-datasets/ToTTo?tab=readme-ov-file) refer to Results
 
-| Model | Parameter         | t5-small       |               |          | t5-base        |               |          |
-|-------|-------------------|----------------|---------------|----------|----------------|---------------|----------|
-|       |                   | Full fine-tuning | LoRA      | LATTICE  | Full fine-tuning | LoRA      | LATTICE  |
-|-------|-------------------|----------------|---------------|----------|----------------|---------------|----------|
-| Epoch |                   | 10             | 10            | -        | 5              | 3             | -        |
-| Learning rate |          | 0.0001         | 0.001         | -        | 0.0001         | 0.001         | -        |
-| Batch size |             | 16             | auto find     | -        | 8              | auto find     | -        |
-| Learning Time |          |                | 9:40:07       | 12:44:05 | 18:19:41       | 10:09:47      | -        |
+| Model               | Parameter        | t5-small Full fine-tuning | t5-small LoRA | t5-small LATTICE | t5-base Full fine-tuning | t5-base LoRA | t5-base LATTICE |
+|---------------------|------------------|---------------------------|---------------|------------------|--------------------------|--------------|-----------------|
+| **Epoch**           |                  | 10                        | 10            | -                | 5                        | 3            | -               |
+| **Learning rate**   |                  | 0.0001                    | 0.001         | -                | 0.0001                   | 0.001        | -               |
+| **Batch size**      |                  | 16                        | auto find     | -                | 8                        | auto find    | -               |
+| **Learning Time**   |                  | 12:44:05                  | 9:40:07       | -                |                          | 10:09:47     | -               |
 
-*Training parameter: LoRA Tuning Seq2SeqTrainingArguments - `auto_find_batch_size = True`. LATTICE provides code only due to a lack of GPU tokens. [ToTTo Official Leaderboard](https://github.com/google-research-datasets/ToTTo?tab=readme-ov-file) refer to Results*
+*Training parameter: LoRA Tuning Seq2SeqTrainingArguments - `auto_find_batch_size = True`. LATTICE는 학습 부족으로 인해 코드만 제공. [ToTTo Official Leaderboard](https://github.com/google-research-datasets/ToTTo?tab=readme-ov-file) 결과 차용*
+
+
+* Training parameter: LoRA Tuning Seq2SeqTrainingArguments - `auto_find_batch_size = True`. LATTICE provides code only due to a lack of GPU tokens. [ToTTo Official Leaderboard](https://github.com/google-research-datasets/ToTTo?tab=readme-ov-file) refer to Results
 
 
 
